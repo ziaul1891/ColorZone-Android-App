@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepagebackground"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/colorzone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/custom_colorzone"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_credits" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundshapebtn"
+        android:contentDescription="@string/exit"
+        android:src="@drawable/exit" />
+
+    <TextView
+        android:id="@+id/copyrighttext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Copyright Protected" />
+
+    <TextView
+        android:id="@+id/copyrighttext2"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_weight="0.06"
+        android:textStyle="bold|italic" 
+        android:text="Ziaul Zia and Tasfia Bushra" />
+
+</LinearLayout>
